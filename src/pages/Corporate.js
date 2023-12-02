@@ -46,8 +46,8 @@ const Corporate = () => {
                                         <li><span className="icon"><FiCheck /></span> You will get high quality signals.</li>
                                     </ul>
                                     <div className="button-group mt--40 mt_sm--20">
-                                        <button className="btn-default btn-icon" target="_blank" href=""><FiArrowRight /> Join Us <i className="icon"></i></button>
-                                        <button className="btn-default btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Read More <i className="icon"></i></button>
+                                    <a className="btn-default btn-medium btn-icon" target="_blank" href="https://linktr.ee/tprofit_pl"><FiArrowRight />Join Us<i className="icon"></i></a>
+                                    <Link className="btn-default btn-medium btn-icon" to="">Check more<i className="icon"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const Corporate = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">psum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">Laaam ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
                             </div>
                         </div>
                     </div>
