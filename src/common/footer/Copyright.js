@@ -10,9 +10,9 @@ const Copyright = () => {
                 <div className="row mt--30">
                                 <div className="col-lg-12">
                                     <ul className="social-icon social-default">
-                                        <li><Link to="twitter.com/tprofit_pl" target='_blank'><FiTwitter /></Link></li>
-                                        <li><Link to="https://t.me/tprofit_pl" target='_blank'><FiMail /></Link></li>
-                                        <li><Link to="https://www.instagram.com/tprofit_pl/" target='_blank'><FiInstagram /></Link></li>
+                                        <li><Link to={{ pathname: "https://x.com/tprofit_pl/" }} target='_blank'><FiTwitter /></Link></li>
+                                        <li><Link to={{ pathname: "https://t.me/tprofit_pl" }} target='_blank'><FiMail /></Link></li>
+                                        <li><Link to={{ pathname: "https://www.instagram.com/tprofit_pl/" }} target='_blank'><FiInstagram /></Link></li>
                                     </ul>
                                 </div>
                             </div>
