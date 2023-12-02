@@ -91,6 +91,7 @@ const Corporate = () => {
                             </div>
                             <div className="col-lg-6">
                                 <p className="mb--10">We work together everyday to help other members of our community in their trading careers. We work for you to help you understand and learn how to trade on the market and become profitable trader. </p>
+                                <p className="mb--10">Join our team and start trading with us today. </p>
                             </div>
                         </div>
                     </div>
