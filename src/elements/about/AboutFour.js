@@ -28,14 +28,14 @@ const AboutFour = ({image}) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">The future of parking solutions <br /> <strong>You decide how:</strong></h3>
+                                <h3 className="title">Doob specializes in <br /> small <strong>Corporate Business.</strong></h3>
                                 <ul className="feature-list">
                                     <li>
                                         <div className="icon">
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">Parking area looks</h4>
+                                            <h4 className="title">A good traveler has no fixed plans</h4>
                                             <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
                                         </div>
                                     </li>
@@ -44,22 +44,13 @@ const AboutFour = ({image}) => {
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">Much it cost per hour and day</h4>
-                                            <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <FiCheck />
-                                        </div>
-                                        <div className="title-wrapper">
-                                            <h4 className="title">Permits and tickets are handled</h4>
+                                            <h4 className="title">A good traveler has no fixed plans</h4>
                                             <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
                                         </div>
                                     </li>
                                 </ul>
                                 <div className="about-btn mt--30">
-                                    <a className="btn-default" href="#">See our demo</a>
+                                    <a className="btn-default" href="#">About Our Doob</a>
                                 </div>
                             </div>
                         </div>

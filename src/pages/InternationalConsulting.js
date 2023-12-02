@@ -6,15 +6,10 @@ import HeaderTwo from '../common/header/HeaderTwo';
 import TabThree from '../elements/tab/TabThree';
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import SlipFour from "../elements/split/SlipFour";
-import SlpitOne from "../elements/split/SlpitOne";
-import AdvancePricingOne from "../elements/advancePricing/AdvancePricingOne";
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
-import Separator from "../elements/separator/Separator";
-import PortfolioOne from "../elements/portfolio/PortfolioOne";
-
-import BlogList from "../components/blog/itemProp/BlogList";
 import BlogClassicData from '../data/blog/BlogList.json';
+import ContactOne from "../elements/contact/ContactOne";
 var BlogListData = BlogClassicData.slice(0, 3);
 
 
@@ -31,11 +26,10 @@ const InternationalConsulting = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <h1 className="title display-one">International <br /> <span className="theme-gradient">Business</span> & <span className="theme-gradient">Consulting</span>.</h1>
-                                    <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
+                                    <h1 className="title display-one"> <br /> <span className="theme-gradient">Business &</span> <span className="theme-gradient">Development</span></h1>
+                                    <p className="description">We help our clients succeed by creating their projects with our experience.</p>
                                     <div className="button-group">
-                                        <Link className="btn-default btn-medium btn-icon" to="#">Purchase Now <i className="icon"><FiArrowRight /></i></Link>
-                                        <Link className="btn-default btn-medium btn-border btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
+                                        <Link className="btn-default btn-medium btn-icon" to="#">Contact <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -45,6 +39,14 @@ const InternationalConsulting = () => {
                 {/* End Slider Area  */}
 
                 {/* Start Elements Area  */}
+                <div className="rwt-split-area no-radius">
+                    <div className="wrapper">
+                        <SlipFour />
+                    </div>
+                </div>
+                {/* End Elements Area  */}
+
+                {/* Start Elements Area  */}
                 <div className="rwt-tab-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--40">
@@ -52,8 +54,8 @@ const InternationalConsulting = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Business Stratagy"
-                                    title = "Our Business Stratagy Here."
+                                    subtitle = "Partnership"
+                                    title = "We can help you with"
                                     description = ""
                                 />
                             </div>
@@ -61,94 +63,25 @@ const InternationalConsulting = () => {
                         <TabThree />
                     </div>
                 </div>
-                {/* End Elements Area  */}
-
-
-                {/* Start Elements Area  */}
-                <div className="rwt-split-area no-radius">
-                    <div className="wrapper">
-                        <SlpitOne />
-                    </div>
-                </div>
-                {/* End Elements Area  */}
-
-                {/* Start Elements Area  */}
-                <div className="rwt-split-area">
-                    <div className="wrapper">
-                        <SlipFour />
-                    </div>
-                </div>
-                {/* End Elements Area  */}
-
-
-                <div className="main-content">
-                    <div className="rwt-elements-area rn-section-gap">
-                        <div className="container-fluid plr--30">
+                {/* End Elements Area  */}                
+ {/* Start Contact Area  */}
+ <div className="rwt-contact-area rn-section-gap">
+                        <div className="container">
                             <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb--40">
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Portfolio Box Layout"
-                                        title = "Happily Clients Complete <br /> Our Business Project!"
+                                        subtitle = "Contact"
+                                        title = "Find us here"
                                         description = ""
                                     />
                                 </div>
                             </div>
-                            <PortfolioOne Column="col-lg-4 col-md-6 mt--30 box-grid-layout no-overlay" />
+                            <ContactOne />
                         </div>
                     </div>
-                </div>
-                
-                <Separator />
-                {/* Start Elements Area  */}
-                <div className="rwt-pricingtable-area rn-section-gap">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Pricing Table"
-                                    title = "Business Pricing Plan."
-                                    description = ""
-                                />
-                            </div>
-                        </div>
-                        <div className="row mt--40">
-                            <div className="col-lg-8 offset-lg-2">
-                                <AdvancePricingOne />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Elements Area  */}
-
-                <Separator />
-                <div className="blog-area rn-section-gap">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Latests News"
-                                    title = "Latest News From The Digital World."
-                                    description = ""
-                                />
-                            </div>
-                        </div>
-                        <div className="row row--15 mt--10">
-                            {BlogListData.map((item) => (
-                                <div key={item.id} className="col-lg-4 col-md-6 col-sm-12 col-12 mt--30">
-                                    <BlogList StyleVar="box-card-style-default" data={item} />
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div> 
-
-
+                    {/* End Contact Area  */}
                 <FooterTwo />
                 <Copyright />
             </main>

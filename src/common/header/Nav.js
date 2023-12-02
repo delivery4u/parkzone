@@ -27,9 +27,9 @@ const Nav = () => {
                 </ul>
             </li>
             
-            <li><Link to="/about-us">About</Link></li>
+            <li><Link to="/about-us">About Us</Link></li>
 
-            <li className="with-megamenu"><Link to="#">Elements</Link>
+            <li className="with-megamenu"><Link to="#">Business</Link>
                 <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
@@ -81,7 +81,7 @@ const Nav = () => {
                 </div>
             </li>
 
-            <li className="has-droupdown"><Link to="#">Blog</Link>
+            <li className="has-droupdown"><Link to="#">Investments</Link>
                 <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
@@ -89,18 +89,6 @@ const Nav = () => {
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul>
             </li>
-
-            <li className="has-droupdown"><Link to="#">Portfolio</Link>
-                <ul className="submenu">
-                    <li><Link to="/portfolio">Portfolio Default</Link></li>
-                    <li><Link to="/portfolio-three-column">Portfolio Three Column</Link></li>
-                    <li><Link to="/portfolio-full-width">Portfolio Full Width</Link></li>
-                    <li><Link to="/portfolio-grid-layout">Portfolio Grid Layout</Link></li>
-                    <li><Link to="/portfolio-box-layout">Portfolio Box Layout</Link></li>
-                </ul>
-            </li>
-
-            <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
         </ul>
     )
 }

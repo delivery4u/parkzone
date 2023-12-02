@@ -5,20 +5,20 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Data = [
     {
-        countNum : 199,
-        countTitle: 'Happy Clients.',
+        countNum : 5,
+        countTitle: 'Market Products',
     },
     {
-        countNum : 575,
-        countTitle: 'Employees',
+        countNum : 10000000,
+        countTitle: 'Revenue (EUR)',
     },
     {
-        countNum : 69,
-        countTitle: 'Useful Programs',
+        countNum : 10,
+        countTitle: 'Satisfaction Clients',
     },
     {
-        countNum : 500,
-        countTitle: 'Useful Programs',
+        countNum : 1000000,
+        countTitle: 'Investments Wallet (EUR)',
     },
 ];
 const SlipFour = () => {
@@ -32,13 +32,13 @@ const SlipFour = () => {
                             animateIn="fadeInUp"
                             animateOut="fadeInOut"
                             animateOnce={true}>
-                                <h4 className="title">Continue Your Business With Us.</h4>
+                                <h4 className="title">Start Your Project With Us</h4>
                             </ScrollAnimation>
                             <ScrollAnimation 
                             animateIn="fadeInUp"
                             animateOut="fadeInOut"
                             animateOnce={true}>
-                                <p className="description">Randomised words which don't look even slightly believable. If you are to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing hidden in the middle of text. in some form, by injectedeed bedhumour, or randomised even .</p>
+                                <p className="description">We are team of a succesfull founders, business managers and investors and we help developed project on every stage.</p>
                             </ScrollAnimation>
 
                             <div className="row">

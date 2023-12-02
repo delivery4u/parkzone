@@ -20,7 +20,7 @@ const Consulting = () => {
             <SEO title="Consulting" />
             <main className="page-wrapper">
                 <HeaderTopBar />
-                <HeaderOne btnStyle="btn-small" HeaderSTyle="header" />
+                <HeaderOne btnStyle="btn-small" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider area  */}
                 <div className="slider-area slider-style-2 variation-2  height-850 bg_image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-10.jpg)`}}>
@@ -28,8 +28,8 @@ const Consulting = () => {
                         <div className="row">
                             <div className="col-lg-8 col-xl-6">
                                 <div className="inner text-start">
-                                    <h1 className="title display-one">We <br />Manage <br />Parking zones</h1>
-                                    <h5 className="tag-title">Enforce your parking rules and make money.</h5>
+                                    <h1 className="title display-one">We provide <br /> reliable business <br /> consulting help.</h1>
+                                    <h6 className="tag-title">SOLUTION FOR YOUR BUSINESS</h6>
                                 </div>
                             </div>
                         </div>

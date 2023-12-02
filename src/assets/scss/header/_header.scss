@@ -112,11 +112,11 @@
         background-image: none;
 
         @media #{$md-layout} {
-            background-color: var(--color-darker);
+            background-color: var(--color-black);
         }
 
         @media #{$sm-layout} {
-            background-color: var(--color-darker);
+            background-color: var(--color-black);
         }
     }
 }
