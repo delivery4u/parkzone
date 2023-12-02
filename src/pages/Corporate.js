@@ -86,11 +86,11 @@ const Corporate = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">We are creative digital agency working for our company brands.</h3>
+                                    <h3 className="title">We are team of 3 traders with combines 15+ years experiance on the markets</h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Laaam ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">We work together everyday to help other members of our community in their trading careers. We work for you to help you understand and learn how to trade on the market and become profitable trader. </p>
                             </div>
                         </div>
                     </div>
