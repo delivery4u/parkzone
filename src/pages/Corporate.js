@@ -90,7 +90,7 @@ const Corporate = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Laaam ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">psum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
                             </div>
                         </div>
                     </div>
